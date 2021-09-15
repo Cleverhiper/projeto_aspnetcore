@@ -78,3 +78,4 @@ D:\ProjCursos\projeto_aspnetcore\obj\Debug\net5.0\ref\projeto_aspnetcore.dll
 D:\ProjCursos\projeto_aspnetcore\obj\Debug\net5.0\projeto_aspnetcore.pdb
 D:\ProjCursos\projeto_aspnetcore\obj\Debug\net5.0\projeto_aspnetcore.genruntimeconfig.cache
 D:\ProjCursos\projeto_aspnetcore\obj\Debug\net5.0\projeto_aspnetcore.csproj.CopyComplete
+D:\ProjCursos\projeto_aspnetcore\obj\Debug\net5.0\Razor\Views\Admin\visualizar.cshtml.g.cs
