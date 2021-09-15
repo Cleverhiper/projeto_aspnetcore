@@ -8,5 +8,9 @@ namespace projeto_aspnetcore.Controllers
         public IActionResult Index(){
             return Content("Olá Mundo - School of Net");
         }
+
+        public IActionResult Hello() {
+            return Content("Desenvolvido por Cleverson!!");
+        }
     }
 }
