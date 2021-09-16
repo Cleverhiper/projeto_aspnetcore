@@ -27,8 +27,10 @@ namespace projeto_aspnetcore
         public void ConfigureServices(IServiceCollection services)
         {
             // using Microsoft.EntityFrameworkCore;
+            string connectionString = Configuration.GetConnectionString("DefaultConnection");
+
             services.AddDbContext<ApplicationDBContext>(options =>
-                options.UseMySql(Configuration.GetConnectionString("DefaultConnection")));
+                options.UseMySql(Configuration.GetConnectionString("DefaultConnection"), ServerVersion.AutoDetect(connectionString)));
             
             services.AddControllersWithViews();
         }
