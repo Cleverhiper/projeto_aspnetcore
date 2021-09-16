@@ -22,7 +22,13 @@ namespace projeto_aspnetcore.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
+                    b.Property<string>("Cpf")
+                        .HasColumnType("longtext");
+
                     b.Property<string>("Nome")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("NomeEnd")
                         .HasColumnType("longtext");
 
                     b.Property<float>("Salario")
