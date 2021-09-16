@@ -15624,6 +15624,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\projetosgit\\projeto_aspnetcore\\Views\\Funcionarios\\Index.cshtml",
+      "TargetPath": "Views\\Funcionarios\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\projetosgit\\projeto_aspnetcore\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -15646,6 +15651,11 @@
     {
       "FilePath": "c:\\projetosgit\\projeto_aspnetcore\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\projetosgit\\projeto_aspnetcore\\Views\\Funcionarios\\Cadastrar.cshtml",
+      "TargetPath": "Views\\Funcionarios\\Cadastrar.cshtml",
       "FileKind": "mvc"
     },
     {
