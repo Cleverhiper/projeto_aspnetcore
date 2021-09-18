@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using projeto_aspnetcore.Models;
 using projeto_aspnetcore.Database;
+using Microsoft.EntityFrameworkCore;
 
 namespace projeto_aspnetcore.Controllers
 {
@@ -66,7 +67,7 @@ namespace projeto_aspnetcore.Controllers
         }
 
         public IActionResult Relacionamento(){
-            Produto p = new Produto();
+            /*Produto p = new Produto();
             p.Nome = "Frango";
             p.Categoria = database.Categorias.First(c => c.Id == 1);
 
@@ -76,7 +77,19 @@ namespace projeto_aspnetcore.Controllers
 
             database.Add(p);
             database.Add(p2);
-            database.SaveChanges();
+            database.SaveChanges();*/
+
+            /*var listadeProdutos = database.Produtos.Include(p => p.Categoria).ToList();
+
+            listadeProdutos.ForEach(produto => {
+                Console.WriteLine(produto.ToString());
+            });*/
+
+             var listadeProdutos = database.Produtos.Include(p => p.Categoria).Where(p => p.Categoria.Id == 2).ToList();
+
+            listadeProdutos.ForEach(produto => {
+                Console.WriteLine(produto.ToString());
+            });
 
             return Content ("Dados Salvos Relacionamentos!");
         }

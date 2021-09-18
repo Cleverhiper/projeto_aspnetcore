@@ -7,6 +7,11 @@ namespace projeto_aspnetcore.Models
         public string Nome {get; set;}
 
         public Categoria Categoria {set; get;}
-        
+
+        public override string ToString()
+        {
+            return "Id: " + this.Id + " Nome: " + this.Nome + " Categoria: [" + this.Categoria.ToString() + "]";
+        }
+
     }
 }
