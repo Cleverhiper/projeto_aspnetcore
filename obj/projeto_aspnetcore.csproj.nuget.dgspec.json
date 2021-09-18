@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\ProjCursos\\projeto_aspnetcore\\projeto_aspnetcore.csproj": {}
+    "D:\\ProjCursos\\projeto_aspnetcore\\projeto_aspnetcore.csproj": {}
   },
   "projects": {
-    "d:\\ProjCursos\\projeto_aspnetcore\\projeto_aspnetcore.csproj": {
+    "D:\\ProjCursos\\projeto_aspnetcore\\projeto_aspnetcore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\ProjCursos\\projeto_aspnetcore\\projeto_aspnetcore.csproj",
+        "projectUniqueName": "D:\\ProjCursos\\projeto_aspnetcore\\projeto_aspnetcore.csproj",
         "projectName": "projeto_aspnetcore",
-        "projectPath": "d:\\ProjCursos\\projeto_aspnetcore\\projeto_aspnetcore.csproj",
+        "projectPath": "D:\\ProjCursos\\projeto_aspnetcore\\projeto_aspnetcore.csproj",
         "packagesPath": "C:\\Users\\LenovoSSD\\.nuget\\packages\\",
-        "outputPath": "d:\\ProjCursos\\projeto_aspnetcore\\obj\\",
+        "outputPath": "D:\\ProjCursos\\projeto_aspnetcore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

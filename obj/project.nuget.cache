@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "low02qWYdumWRfdw0PQIsZ2aPzckYfYkcVx5X5gVHr/0Bn2m3Zb5kbxjJ7zXeVLc9jUUMvkfiddrfEf7xo+wKQ==",
+  "dgSpecHash": "1DyeA3O30V8fLjJUIZTsuB9RVHJJfxvC1j/v90Rz2lILTTy0XiShLxICekslnxUob5pSp4GPM9ouBTKRP2EcaA==",
   "success": true,
-  "projectFilePath": "d:\\ProjCursos\\projeto_aspnetcore\\projeto_aspnetcore.csproj",
+  "projectFilePath": "D:\\ProjCursos\\projeto_aspnetcore\\projeto_aspnetcore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LenovoSSD\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\LenovoSSD\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
